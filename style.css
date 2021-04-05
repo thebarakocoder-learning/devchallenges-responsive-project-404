@@ -26,6 +26,7 @@ body{
 
 .heading{
 	width: 133px;
+	color: var(--grey-dark);
 	font-family: Inconsolata;
 	font-style: normal;
 	font-weight: 900;
@@ -36,7 +37,62 @@ body{
 	margin: 20px auto auto 24px;
 }
 
+img{
+	display: block;
+	width: 100%;
+}
+
+.img_card{
+	display: block;
+	padding: 64px 44.17px 60px 44px;
+}
+
 .main_content{
-	border: 1px solid red;
+	padding: 0 1px 114px 24px;
+}
+
+.main_content_title{
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: 700;
+	font-size: var(--text-lg);
+	line-height: 71px;
+	letter-spacing: -0.035em;
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding: 0;
+	width: 100%;
+}
+
+.main_content_description{
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: 400;
+	font-size: var(--text-s);
+	line-height: 27px;
+	letter-spacing: -0.035em;
+	margin-top: 0;
+	margin-bottom: 66px;
+	margin-right: 23px;
+	width: 100%;
+}
+
+.main_content_link{
+	display: block;
+	width: 130px;
+	text-decoration: none;
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: 700;
+	font-size: var(--text-xxs);
+	line-height: 21px;
+	/* identical to box height */
+
+	letter-spacing: -0.035em;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 24px 43px 23px 44px;
+	background-color: var(--grey-dark);
+	box-sizing: content-box;
 }
 
