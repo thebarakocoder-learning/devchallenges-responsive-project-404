@@ -13,6 +13,30 @@
 	--grey-dark: #333333;
 }
 
-@media screen and (max-width: 375px){
-
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.heading{
+	width: 133px;
+	font-family: Inconsolata;
+	font-style: normal;
+	font-weight: 900;
+	font-size: var(--text-md);
+	line-height: 25px;
+	letter-spacing: -0.08em;
+	text-transform: uppercase;
+	margin: 20px auto auto 24px;
+}
+
+.main_content{
+	border: 1px solid red;
+}
+
