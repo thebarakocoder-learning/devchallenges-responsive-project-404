@@ -1,0 +1,18 @@
+:root{
+	/*Text sizing variables*/
+	--text-xxs: 0.875rem; /* 14px */
+	--text-xs: 1.0625rem; /* 17px */
+	--text-s: 1.125rem; /* 18px */
+	--text-md: 1.5rem; /* 24px */
+	--text-lg: 3rem; /* 48px */
+	--text-xlg: 4rem; /* 64px */
+
+	/*Color variables*/
+	--grey-ulight: #BDBDBD;
+	--grey-light: #4F4F4F;
+	--grey-dark: #333333;
+}
+
+@media screen and (max-width: 375px){
+
+}
